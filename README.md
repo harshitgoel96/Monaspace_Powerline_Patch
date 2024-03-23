@@ -7,5 +7,5 @@ To use font-patch in windows to path your own fonts, follow the steps below
 1. Install fontforge
 2. FontForge comes with ffpython, use the ffpython with font-patch script like below
    ```
-   ffpython.exe .\font-patcher -out <output dir> <font that you want to patch>
+   ffpython.exe .\font-patcher --powerline -out <output dir> <font that you want to patch>
    ```
